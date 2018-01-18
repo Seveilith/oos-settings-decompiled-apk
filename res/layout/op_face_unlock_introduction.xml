@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.GlifLayout android:icon="@drawable/op_ic_face_unlock_setup" android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/oneplus_contorl_layout_margin_left2" android:paddingEnd="@dimen/oneplus_contorl_layout_margin_right2">
+        <com.android.setupwizardlib.view.RichTextView android:id="@id/description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_face_setup_unlock_settings_summary" style="@style/SuwDescription.Glif" />
+        <View android:layout_width="fill_parent" android:layout_height="24.0dip" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/animation_view" android:layout_width="580.0px" android:layout_height="580.0px" android:layout_weight="5.0" app:lottie_fileName="op_face_unlock_introduction_anim.json" app:lottie_autoPlay="true" app:lottie_loop="true" />
+        <View android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/oneplus_contorl_layout_margin_bottom1">
+            <Button android:id="@id/fingerprint_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_settings_fingerprint_enroll_introduction_cancel" style="@style/SetupWizardButton.Negative" />
+            <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <Button android:id="@id/fingerprint_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suw_next_button_label" style="@style/SetupWizardButton.Positive" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.setupwizardlib.GlifLayout>

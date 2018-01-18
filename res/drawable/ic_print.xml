@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@android:drawable/ic_media_route_connecting_light_28_mtrl" android:tint="@android:color/notification_primary_text_color_light"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

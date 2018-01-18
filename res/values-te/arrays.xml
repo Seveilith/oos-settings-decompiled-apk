@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>గంటలు, నిమిషాలు, మరియు సెకండ్లు చూపించు</item>
+        <item>గంటలు మరియు నిమిషాలు చూపించు (డిఫాల్ట్)</item>
+        <item>ఈ ఐకాన్ చూపించవద్దు</item>
+    </string-array>
+</resources>

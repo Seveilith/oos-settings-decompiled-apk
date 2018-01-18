@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>ಸಮಯ, ನಿಮಿಷ ಮತ್ತು ಸೆಕೆಂಡುಗಳನ್ನು ತೋರಿಸಿ</item>
+        <item>ಸಮಯ ಮತ್ತು ನಿಮಿಷಗಳನ್ನು ತೋರಿಸಿ (ಡೀಫಾಲ್ಟ್)</item>
+        <item>ಈ ಐಕಾನ್ ತೋರಿಸಬೇಡಿ</item>
+    </string-array>
+</resources>

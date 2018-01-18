@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>മണിക്കൂര്‍, മിനിറ്റ്, സെക്കന്‍ഡ് എന്നിവ കാണിക്കുക</item>
+        <item>മണിക്കൂറുകളും മിനിറ്റുകളും കാണിക്കുക (ഡിഫോള്‍ട്ട്)</item>
+        <item>ഈ ഐക്കണ്‍ കാണിക്കരുത്</item>
+    </string-array>
+</resources>

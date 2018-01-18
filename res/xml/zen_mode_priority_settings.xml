@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/op_not_disturb" android:key="zen_mode_priority_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.fuelgauge.WallOfTextPreference android:selectable="false" android:key="alarms_summary" android:summary="@string/alarms_summary" settings:allowDividerAbove="true" />
+    <PreferenceCategory android:title="@string/customization_incoming_call_settings" android:key="customization_incoming_call_settings">
+        <DropDownPreference android:title="@string/zen_mode_calls" android:key="calls" android:summary="%s" />
+        <SwitchPreference android:title="@string/zen_mode_repeat_callers" android:key="repeat_callers" />
+        <Preference android:title="@string/oneplus_favourite_contacts" android:key="favourite_contacts_settings" />
+    </PreferenceCategory>
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <PreferenceCategory android:title="@string/others_customization_settings" android:key="others_customization_settings">
+        <SwitchPreference android:title="@string/schedule_reminders" android:key="reminders" />
+        <DropDownPreference android:title="@string/zen_mode_messages" android:key="messages" android:summary="%s" />
+        <SwitchPreference android:persistent="false" android:title="@string/oneplus_led_support" android:key="led_switch" />
+    </PreferenceCategory>
+    <SwitchPreference android:title="@string/zen_mode_events" android:key="events" />
+</PreferenceScreen>
